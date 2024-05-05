@@ -42,6 +42,23 @@ h1 {
     color: #252525;
 }
 
+/* Style menu */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/* Style list items inside menu */
+#menu > li {
+    margin-bottom: 1rem;
+}
+
+/* Show user where they are in website */
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Body style */
 main {
     background-color: lightblue;
