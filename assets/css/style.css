@@ -23,6 +23,11 @@ header {
     background-color: lightcoral;
 }
 
+/* Style Logo */
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Body style */
 main {
     background-color: lightblue;
