@@ -26,6 +26,9 @@ header {
     z-index: 99; /*Layer header on top of any element that might have a z-index later */
     width: 100%; /* Ensures the header takes up 100% of the screen */
     box-shadow: 0 2px 2px #3a3a3a;/* Add box-shadow to header */
+    display: flex; /* Menu shows in a row */
+    justify-content: space-between; /* Add space between menu items */
+    align-items: baseline; /* Align items to show in a line vertically */
 }
 
 /* Style nav links - inherited from parent */
@@ -68,6 +71,21 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; /* Sets the navbar to hidden until the user clicks */
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* Hide nav check-box - pseudo burger icon */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Body style */
