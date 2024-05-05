@@ -28,9 +28,18 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;/* Add box-shadow to header */
 }
 
+/* Style nav links - inherited from parent */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Style Logo */
 h1 {
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 /* Body style */
