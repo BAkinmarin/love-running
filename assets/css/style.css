@@ -20,7 +20,12 @@ body {
 
 /* Header style */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem; /* Padding left=0 and right-1rem to prevent text from sticking to the side of the screen*/
+    position: fixed; /* So navbar scrolls along the length of the page */
+    z-index: 99; /*Layer header on top of any element that might have a z-index later */
+    width: 100%; /* Ensures the header takes up 100% of the screen */
+    box-shadow: 0 2px 2px #3a3a3a;/* Add box-shadow to header */
 }
 
 /* Style Logo */
