@@ -58,7 +58,7 @@ header a {
 
 /* Style list items inside menu */
 #menu > li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 /* Show user where they are in website */
@@ -111,7 +111,7 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
-    font-style: 130%;
+    font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -146,14 +146,14 @@ main {
     padding: 0 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
 /* Style social image */
 #circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -179,7 +179,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
@@ -315,7 +315,7 @@ main {
     }
 
     /* Push main content down to accommodate larger header */
-    #main {
+    main {
         margin-top: 79px;
     }
 
@@ -396,7 +396,7 @@ main {
         }
 
         #benefits-image {
-            order: 0;
+            order: 0
         }
 
         #benefits-mental {
