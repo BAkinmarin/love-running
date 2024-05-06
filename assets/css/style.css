@@ -147,6 +147,11 @@ hr {
     margin: 5px 0;
 }
 
+/* Style social image */
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+}
+
 /* Footer style */
 #social-networks {
     text-align: center;
